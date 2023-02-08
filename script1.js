@@ -1,6 +1,6 @@
 
 function shuffle(){
-  var cont = document.getElementById("container");
+  var const = document.getElementById("container");
   var hexArr = cont.getElementsByClassName("hex")
   var elementsArray = Array.prototype.slice.call(hexArr);
 
